@@ -5,6 +5,14 @@
 //ADDING ITEM IN FRONT OF VECTOR
 vector<int> ans;
 ans.insert(vector.begin(),100);
+
+//STACK
+stack<int> comp; // creating a stack
+stack.push(10); // push elem in the stack
+int top = stack.top(); // view the top element
+stack.pop(); // no return value
+
+
 /////////////////////////////////////////////////////////////////
 //STRING
 //SUB-STRING
