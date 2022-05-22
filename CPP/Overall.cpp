@@ -1,6 +1,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //DATA TYPES
 //VECTOR
+//making a 2d vector
+vector<vector<bool>> dp(n,vector<bool>(n,false)); // vector of size n,n with false as default value
 
 //ADDING ITEM IN FRONT OF VECTOR
 vector<int> ans;
