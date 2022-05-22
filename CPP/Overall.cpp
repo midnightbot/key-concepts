@@ -14,6 +14,10 @@ stack.push(10); // push elem in the stack
 int top = stack.top(); // view the top element
 stack.pop(); // no return value
 
+//TREES
+root->left; // to get left child
+root->right; //to get right child
+root->value; // to get the value
 
 /////////////////////////////////////////////////////////////////
 //STRING
