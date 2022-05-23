@@ -45,3 +45,10 @@ char compare = strs.at(x);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//binary search
+//fstart and fend are 2 different vectors
+
+int starttime = upper_bound(fstart.begin(),fstart.end(),it) - fstart.begin(); //bisect_right
+int endtime = lower_bound(fend.begin(),fend.end(),it) - fend.begin(); // bisect_left
+
+//
